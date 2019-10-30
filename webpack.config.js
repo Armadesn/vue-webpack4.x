@@ -125,7 +125,7 @@ module.exports =  {
         },
         proxy: {
             '/api': {
-                target: 'http://test.weifenghr.com:8080',
+                target: '跨域地址',
                 changeOrigin: true,
                 pathRewrite: {
                     '^/api': ''
