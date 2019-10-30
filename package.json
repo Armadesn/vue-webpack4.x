@@ -1,5 +1,4 @@
 {
-  "name": "vue-cli",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
@@ -8,7 +7,6 @@
     "build": "cross-env NODE_ENV=production ./node_modules/.bin/webpack -p --mode production",
     "test": "cross-env NODE_ENV=test ./node_modules/.bin/webpack-dev-server --mode test"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "file-loader": "^2.0.0",
